@@ -353,30 +353,8 @@ HTML_SOURCE = """<!DOCTYPE html>
     100% { top: 12%; opacity: 0; }
   }
 
-  .verdict-pop {
-    position: absolute;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    font-weight: 700;
-    padding: 0.3rem 0.6rem;
-    border-radius: 999px;
-    box-shadow: var(--shadow);
-  }
-  .verdict-pop.p1 { top: 14%; right: -8px; background: var(--safe-bg); color: var(--safe); animation: pop 3.2s ease-in-out infinite; }
-  .verdict-pop.p2 { bottom: 18%; left: -10px; background: var(--avoid-bg); color: var(--avoid); animation: pop 3.2s ease-in-out infinite 0.25s; }
-
-  @keyframes pop {
-    0%, 40% { transform: scale(0.7); opacity: 0; }
-    55%, 85% { transform: scale(1); opacity: 1; }
-    100% { transform: scale(1); opacity: 1; }
-  }
-
   @media (prefers-reduced-motion: reduce) {
     .scanline { animation: none; opacity: 0; }
-    .verdict-pop { animation: none; opacity: 1; transform: none; }
   }
 
   /* ---------- Section shared ---------- */
@@ -801,8 +779,6 @@ HTML_SOURCE = """<!DOCTYPE html>
               <div><span class="hl">에탄올</span>, 메틸파라벤</div>
               <div>티트리잎추출물, 토코페롤</div>
             </div>
-            <span class="verdict-pop p1">✓ 적합</span>
-            <span class="verdict-pop p2">✕ 비적합</span>
           </div>
         </div>
       </div>
