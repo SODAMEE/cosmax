@@ -785,7 +785,6 @@ HTML_SOURCE = """<!DOCTYPE html>
           <p class="lede">성분표 속 어려운 이름들 때문에 고민하지 마세요. 내 피부 타입에 맞는 성분과 조심할 조합, 케어 루틴까지 한 번에 알려드려요.</p>
           <div class="hero-ctas">
             <a class="btn btn-primary" href="#demo">무료로 성분 확인해보기</a>
-            <a class="btn btn-ghost" href="#how">어떻게 작동하나요?</a>
           </div>
           <p class="hero-note">회원가입 없이 체험판으로 먼저 확인해볼 수 있어요.</p>
         </div>
